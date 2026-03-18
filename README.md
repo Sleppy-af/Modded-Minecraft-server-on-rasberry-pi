@@ -1,4 +1,4 @@
-# Modded minecraft server on rasberry pi
+# Modded minecraft server on rasberry pi 🍓
 If you play minecraft and have a spare rasberry pi in your collection then it's always a way to do something with it. Server won't be as good as hypixel or so but for you and ur friends that'll do just well
 
 # Installation proces
