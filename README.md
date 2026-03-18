@@ -1,17 +1,17 @@
 # Modded minecraft server on rasberry pi 🍓
-If you play minecraft and have a spare rasberry pi in your collection then it's always a way to do something with it. Server won't be as good as hypixel or so but for you and ur friends that'll do just well
+If you play minecraft and have a spare rasberry pi in your collection then it's always a way to do something with it. Server won't be as good as hypixel or so but for you and ur friends that'll do just fine
 
 # Installation proces
 
 ``Entire proces was made on rasberry pi 1 b+, but it'll work just well on any of the pi family. Os was dietpi, but'll work same on rasberry pi os. Server will be set up by using additional laptop with windows installed (ssh). Mods will be searched through curseforge``
 
 ## SSH
-The thing we'll controll our pi with. We're going to do this in our windows powershell. We need a few informations about our pi to do it tho. These informations are:
+The thing we'll controll our pi with. We're going to do this in our windows powershell. We need a few informations about our pi to do it tho:
 - Our pi ip adress
 - our pi username
 - our pi username password
 
-When we have all this now we can connect with our pi by typing from this template:
+Now we can connect with our pi by typing from this template:
 ```ssh <pi username>@<pi ip adress>```
 
 When the terminal of our pi pops up, then you know you did well
@@ -40,7 +40,7 @@ For this you need to open a new powershell window. Then we can start by typing:
 And thst's it :)
 
 ## Unziping the files
-Before we do it, we need to install thing called `unzip`, which will as it says unzip our .rar folder.
+Before we do it, we need to install thing called `unzip`, which will as it says unzip our .zip folder.
 ```sudo apt install uznip```
 
 After we done that, we can actually uznip our file by:
@@ -53,6 +53,6 @@ That's what we all've been waiting for, starting the server up. We do that by ty
 It'll probably ask you to accept eula so just do it.
 That's all! Enjoy your play guys
 
-``Server is working on locale ip by now, if you want it worldwide, you can port it through playit.gg. Good luck``
+``Server is working on locale ip by now, if you want it worldwide, you can port it through playit.gg. Good luck 🫡``
 
 
