@@ -30,8 +30,8 @@ On any other os you can install it manually by typing:
 ## Server setup
 As mentioned earlier we'll do it on regular PC first, then just push it to our pi with ssh.
 
-1. **Download server pack of your choosing:** For the tutorial we'll be using Better minecraft mod, which i'll also add to the repo files.
-2. **Edit your start up script:** We're talking about variables.txt file, which will be added as separate file too. There's no too much to edit, but it's really important to do so. The thing we need to pay attention to is this line `JAVA_ARGS="-Xmx4G -Xms4G"`. It says how much ram your pi should alocate to the sever. Xmx is max value, Xms is minimum. On our model we'll alocate `Xmx512M`, cuz that's the entire RAM we have, as minimum just set `Xms10M`. That's all. For other models of pi choose how much ram you want to alocate to your own likings, just remember that if you want to use your pi at the moment the server is running, it's a lot easier to leave around 1 or 2 Gigs unalocated.
+1. **Download server pack of your choosing:** For the tutorial we'll be using Better minecraft mod https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4/files/7736926
+2. **Edit your start up script:** We're talking about variables.txt file, which will be added as separate file to this repo. There's no too much to edit, but it's really important to do so. The thing we need to pay attention to is this line `JAVA_ARGS="-Xmx4G -Xms4G"`. It says how much ram your pi should alocate to the sever. Xmx is max value, Xms is minimum. On our model we'll alocate `Xmx512M`, cuz that's the entire RAM we have, as minimum just set `Xms10M`. That's all. For other models of pi choose how much ram you want to alocate to your own likings, just remember that if you want to use your pi at the moment the server is running, it's a lot easier to leave around 1 or 2 Gigs unalocated.
 
 ## SSH file transfer
 For this you need to open a new powershell window. Then we can start by typing:
