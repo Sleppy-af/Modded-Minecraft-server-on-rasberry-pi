@@ -1,1 +1,1 @@
-# Minecraft-server-on-rasberry-pi
+# Minecraft server on rasberry pi
