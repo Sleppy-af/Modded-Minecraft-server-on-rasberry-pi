@@ -44,7 +44,7 @@ As mentioned earlier we'll do it on regular PC first, then just push it to our p
 ## SSH file transfer
 For this you need to open a new powershell window. Then we can start by typing:
 ```
-cps <path to your file on windows> <pi username>@<pi ip adress> <path where you want to have the files on your pi>
+scp <path to your file on windows> <pi username>@<pi ip adress>:<path where you want to have the files on your pi>
 ```
 
 And thst's it :)
